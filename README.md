@@ -2,17 +2,16 @@
 
 This is a GitHub repository for the contact service and contact object components of a mobile application. The purpose of this repository is to provide unit tests to verify that the application meets the customer's requirements for adding, updating, and deleting contacts within the application.
 
-Getting Started
+How can I ensure that my code, program, or software is functional and secure?
+In reflecting on my work in these projects, I believe that to ensure that code, program, or software is functional and secure, it is important to apply a systematic approach to testing and quality assurance. This approach should include identifying requirements, developing test cases, executing tests, and analyzing test results. It is also important to consider security vulnerabilities and potential attacks, and incorporate security measures into the design and testing process by inputing Private data members. 
 
-To get started with this project, clone this repository to your local machine.
+How do I interpret user needs and incorporate them into a program?
+To interpret user needs and incorporate them into a program, I believe that it is important to actively listen to users, ask questions, and seek feedback throughout the development process. It is also important to consider the user experience and ensure that the program is easy to use and meets the user's goals and objectives.
 
-bash
-Copy code
-git clone https://github.com/<username>/mobile-app-contact-service.git
-Prerequisites
+How do I approach designing software?
+When approaching designing software, I believe that it is important to begin by identifying requirements and use cases. This involves understanding the problem that the software is intended to solve and the needs of the users. Once the requirements are established, it is important to develop a software design that meets those requirements while also considering factors such as scalability, maintainability, and security. It is also important to iterate on the design and incorporate feedback throughout the development process to ensure that the final product meets the needs of the users.
 
-Java 8 or higher
-JUnit 4 or higher
+
 Contact Class Requirements
 
 The contact object has the following requirements:
@@ -34,19 +33,4 @@ The contact service has the following requirements:
 The contact service shall be able to add contacts with a unique ID.
 The contact service shall be able to delete contacts per contact ID.
 The contact service shall be able to update contact fields per contact ID. The following fields are updatable: firstName, lastName, phone, and address.
-Running the Unit Tests
 
-To run the unit tests, navigate to the project root directory and execute the following command:
-
-bash
-Copy code
-./gradlew test
-This command will run all of the JUnit tests for the contact service and contact object. If all tests pass, you should see a message indicating that all tests were successful.
-
-Contributing
-
-If you wish to contribute to this project, please fork the repository and submit a pull request.
-
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
